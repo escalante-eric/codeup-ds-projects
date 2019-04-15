@@ -48,4 +48,3 @@ def prep_zillow(df):
     return df
 
 df = acquire_zillow.read_zillow_csv()
-print(df.shape)s
